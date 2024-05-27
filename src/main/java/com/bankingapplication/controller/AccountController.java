@@ -62,12 +62,4 @@ public class AccountController {
 		accountService.deleteAccount(id);
 		return ResponseEntity.ok("Account deleted successfully");
 	}
-	
-	
-	
-	
-	
-	
-	
-	
 }

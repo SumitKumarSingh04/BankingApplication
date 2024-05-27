@@ -2,10 +2,7 @@ package com.bankingapplication.service.impl;
 
 import java.util.List;
 import java.util.stream.Collectors;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.bankingapplication.dto.AccountDto;
 import com.bankingapplication.entity.Account;
 import com.bankingapplication.mapper.AccountMapper;
@@ -15,7 +12,6 @@ import com.bankingapplication.service.AccountService;
 @Service
 public class AccountServiceImpl implements AccountService{
 
-//	@Autowired
 	private AccountRepository accountRepository;
 	
 	public AccountServiceImpl(AccountRepository accountRepository) {
